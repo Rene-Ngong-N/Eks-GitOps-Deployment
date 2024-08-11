@@ -27,8 +27,8 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::746196583728:role/sample-ga-role
-          role-session-name: sample-ga-role
+          role-to-assume: arn:aws:iam::224545624713:role/Sample-role-github
+          role-session-name: Sample-role-github
           aws-region: ${{ env.AWS_REGION }}
 
       - name: terraform
